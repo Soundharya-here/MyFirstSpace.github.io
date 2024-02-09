@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+
+<head>
+	<title >Space Visit</title>
+	<style>
+		.title{
+        font-weight: 800;
+        font-size: 3.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        text-align: center;
+        color: black;
+}
+.title1{
+        font-weight: 800;
+        font-size: 3.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        text-align: center;
+        color: white;
+}
+#but{
+text-align: center;
+}
+.button,.bbutton{
+background-image: url("https://specials-images.forbesimg.com/imageserve/1176555906/960x0.jpg?fit=scale");
+font-size: 55px;
+color: white;
+
+
+}
+
+.hidden {
+display: none;
+color: white;
+}
+.bhp{
+	font-size: 32px;
+}
+
+body { 
+background-image: url("https://papers.co/wallpaper/papers.co-vs87-triangle-art-abstract-bw-white-pattern-25-wallpaper.jpg");
+        background-color: white;
+		background-size: cover;
+		background-attachment: fixed;
+        } 
+ .bax{
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+        }
+h1{
+
+}
+.sun,.moon{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.bh{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.glow {
+  text-align: center;
+}
+.glowe {
+  text-align: center;
+  color: black;
+  font-size: 80px;
+}
+.earthi{
+	text-align: center;
+	columns: rgb(0,250,154);
+}
+.l{
+	float: right;
+	border-radius: 300%;
+	width: 500px;
+	height: 500px;
+}
+.r{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(0,191,255);
+  padding: 50px;
+  margin: 20px;
+}
+#mercury{
+  background-color: black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(30,144,255); 
+  padding: 50px;
+  margin: 20px;
+}
+#venus{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(220,20,60);
+  padding: 50px;
+  margin: 20px;
+}
+#mars{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(255,140,0);
+  padding: 50px;
+  margin: 20px;
+}
+#jupiter{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(0,250,154);
+  padding: 50px;
+  margin: 20px;
+}
+#saturn{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(148,0,211);
+  padding: 50px;
+  margin: 20px;
+}
+#uranus{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(255,255,255);
+  padding: 50px;
+  margin: 20px;
+}
+#neptune{
+  background-color:black;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(112,128,144);
+  padding: 50px;
+  margin: 20px;
+}
+#comet{
+  background-color:lightgray;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(112,128,144);
+  padding: 50px;
+  margin: 20px;
+  color: black;
+}
+#meteor{
+  background-color:lightgray;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(112,128,144);
+  padding: 50px;
+  margin: 20px;
+  color: black;
+}
+#et{
+  background-color:lightgray;
+  width: 300px;
+  border: 15px solid black;
+  border-left-color: rgb(112,128,144);
+  padding: 50px;
+  margin: 20px;
+  color: black;
+}
+
+#earth {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 3em auto;
+  transition: transform 200ms linear;
+  animation: rotate 4s linear infinite;
+  border-radius: 70%;
+  background: url("https://i.pinimg.com/originals/ce/51/93/ce519395e6cec83d9953c4e6e3362386.png") ;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+  animation-name: rotate;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+  float: right;
+}
+
+
+
+  @keyframes rotate {
+  0% {background-position: 0 100;}
+  100% {background-position: 530px 0;}
+}
+
+</style>
+	<link href="space.css" type='text/css' rel='stylesheet'>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+<style>
+.button {
+    font-family: 'Amatic SC';font-size: 42px;
+}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+<style>
+.title,.title1 {
+    font-family: 'Barrio';font-size: 52px;
+}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+<style>
+.intro {
+    font-family: 'Patrick Hand SC';font-size: 30px;
+}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+<style>
+.hidden {
+    font-family: 'Dekko';font-size: 18px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script>
+   $(document).ready(function(){
+      $(".button").click(function(){
+           $(".hidden").show();
+           $(".beginning").hide();
+           var myurl = "https://i.postimg.cc/cL1cQw6H/wallpapersden-com-astronaut-in-space-2560x1440.jpg";
+           //"https://images3.alphacoders.com/984/thumb-1920-984559.jpg//https://www.desktophut.com/wp-content/uploads/2018/09/XAKrkAaKSPrmF8l4Pi26.jpg";
+           $("body").css("background-image", "url(" + myurl + ")");
+
+        });
+    });
+</script>
+<script>
+   $(document).ready(function(){
+      $(".bbutton").click(function(){
+           $("body").hide();
+
+        });
+    });
+</script>
+
+</head>
+
+
+
+<body>
+
+<div class="beginning">
+<div class="title"><h1> MISSION SPACE</h1></div>                                  
+<div class=intro>
+	<strong><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Space is amazing. The sheer vastness of it, along with the trillions upon trillions of objects in the many billion galaxies of the universe is almost incomprehensible to the human brain.The thought on how small of a being we are in this planet with unbelievable things out there gives chills.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are now entering a journey where you visit and explore the beauty of space. Pack your stuffs,wear your suit and press the button when you're ready to leave earth! Have a fun and educative trip!</p><br><br></strong>
+	<p id="but"><input class="button" type="button" value="Take me to space"/></p>
+</div>
+</div>
+
+
+
+
+
+
+<div class="hidden">
+	<div class="title1"><h1> NOW IN SPACE</h1></div>  
+
+<div class="snm">
+	<hr>
+	<img src="https://i.pinimg.com/originals/91/9a/c3/919ac30002e753944a20d26724c51e6d.jpg" class="bax"/><br>
+	<button onclick="typeWriter()">Click me</button>
+	<h2 id="demo"></h2>
+	<script>
+var i = 0;
+var txt = "  Welcome on board human, I'm Bax - your guide in this tour. I'll give you an unforgettabe experience and help you unravel the beauty of our universe. Let's start. Have a little chat with Sun and moon for now.";
+var speed = 40;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+	<br><br><br><br><hr>
+	<h1 class="glow">THE SUN</h1>
+	<img src="https://static.toiimg.com/photo/103807110.cms" class="sun"/>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don't come any closer!  I am the heart of our solar system— a yellow dwarf star, a hot ball of glowing gases.My  gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit.I'm the alpha of this galaxy man!</p>
+	<h1 class="glow">THE MOON</h1>
+    <img src="https://space-facts.com/wp-content/uploads/moon.png" class="moon"/>
+
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm sure you know me.I'm moon,otherwise known as Luna-the only natural satellite of Earth.It is said that I was created when Earth collided with a planet-sized object called Theia.I'm overwhelmed with all of your love! </p><br><br>
+</div>
+<hr>
+	<img src="https://i.pinimg.com/originals/91/9a/c3/919ac30002e753944a20d26724c51e6d.jpg" class="bax"/><br>
+	<button onclick="typeWriteri()">Click me</button>
+	<h2 id="demoi"></h2>
+	<script>
+var j = 0;
+var txti = "I know they were not very interesting , but the planets I'm gonna show you next are the real treat!";
+var speedi = 40;
+
+function typeWriteri() {
+  if (j < txti.length) {
+    document.getElementById("demoi").innerHTML += txti.charAt(j);
+    j++;
+    setTimeout(typeWriteri, speedi);
+  }
+}
+</script>
+
+<br><br><br><br>
+<hr>
+<br>
+
+
+
+
+<div class="tplanets">
+	<img src="https://space-facts.com/wp-content/uploads/mercury.png" class="l" >
+	<p id=mercury>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MERCURY - Oh hey there!Looks like you're from Earth.Sorry,I forget to introduce myself.I'm Mercury.Don't look at me like that.I'm old and hence I got wrinkles,molten core and crater.You people now call me the smallest planet after my brother pluto's disapperance yet I'm proud that I'm the second densest planet.You should leave sooner-one day here is 58 days on earth.Also do not tell anyone that I am the closest with sun *Our little secret*. Visit again!</p><br><br>
+    <img src="https://space-facts.com/wp-content/uploads/venus.png" class="l">
+	<p id=venus>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VENUS - Hey human!I know I'm the hottest of all(462°C),is that why you people stare at me all day and night from your land?It's funny that I rotate the opposite direction to the Sun.Maybe a large asteroid would've collided with me while I was young.Not very sure tho.You guys never get sick of naming me! Morning star,Evening star,Earth's sister and what else?I have a weak magnetic field.You know what,I'm named after the roman goddess of love and beauty.Leave before you fall for me!</p>
+	<div id="earth"></div><br><br><br><br><br><p class="r">EARTH - You know me already! Your mother carry you 9 months in her womb,I carry you all your lifetime and I'm overjoyed about that! Everyone is jealous on me that I have you people to take care of me.In case Mercury did not tell you,I'm the densest planet of all.I'm getting hurt everday and I'm afraid I'll not be able to support you all someday,Please take care of me.Learn more about others my child!</p><br><br><br><br><br><br><br><br>
+	<img src="https://space-facts.com/wp-content/uploads/mars.jpg" class="l">
+	<p id="mars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MARS - Martian,Really?You little fellas planning to come on me like I'm a honeycomb or something.Finally my Olypus Mons(Volcano)might have some eruption to do.Ain't interested in telling you shits, but Earth insisted so..Red planet,Liquid water,blue sunset,same landmass as earth.Yo,i even shoot my pieces to earth at times.Don't wait for me to shoot you.Go now!!!</p><br><br><br><br>
+</div>
+<div class="gplanets">
+	<img src="https://space-facts.com/wp-content/uploads/jupiter.png" class="l">
+	<p id="jupiter">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JUPITER - Seems like Mars was angry as Red.Big boy's here to give you an awesome time.I have tons of awesome things to tell you about me.I spin real fast like it only takes 10 hours to finish my rotation.I have rings,how cool!.My magnetic field is 14 times stronger than your earth.67 moons,a red spot(my favorite feauture-as famous as your eyes),318 times massive than earth,Woah boy!I'm proud of myself.I even stare at you guys but you may find it difficult to notice me.I - Don't leave. I have a lot to tell.......Sad to see you part away human!</p><br><br><br><br><br>
+		<img src="https://space-facts.com/wp-content/uploads/saturn.png" class="l">
+	<p id="saturn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SATURN - Who has more moons than others,like 82?Oh yeah that's me! Hola amigo,Welcome to the land of fun! You can slide through my fabulous ring made of ice and dust-a tiny bit.You can fly here,I'm made mostly of hydrogen,helium and uh-oh methane.You should go on a diet and get that flat abs,believe it or not I'm the flattest of all!</p><br><br><br><br><br>
+	<img src="https://space-facts.com/wp-content/uploads/uranus.jpg" class="l">
+	<p id="uranus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URANUS - I,Uranus is the first planet to be discovered with the use of telescope.I'm referred as the "ICE GIANT".Voyager 2 is the only spacecraft flown by me.My moons are named after characters created by William Shakespeare and Alexander pope like Oberon,Titania and Miranda(She has ice canyons,terraces and strange surface areas).I'm tired after revolving 84 earth years around sun to complete one trip and hence I should rest for a while. Goodnight dude!</p><br><br><br><br><br>
+	<img src="https://space-facts.com/wp-content/uploads/neptune.png" class="l"> 
+	<p id="neptune">NEPTUNE - Tune in fellas,you're now in NepTUNE.Theeeee... .... arrrrr. ... ... ayyyyy.. ..ohhhh.. ... .uf ffffff.. ... ...DDammnnn.. ..... ..
+Connection lost!</p><br><br>  <br><br>  <br><br>  <br><br>    
+</div>
+<hr>
+	<img src="https://i.pinimg.com/originals/91/9a/c3/919ac30002e753944a20d26724c51e6d.jpg" class="bax"/><br>
+	<button onclick="typeWriterm()">Click me</button>
+	<h2 id="demom"></h2>
+	<script>
+var m = 0;
+var txtm = "That was a lot to take in!Asteroids,comets,ET are next in our agenda..Feel free to skip to the last part!";
+var speedm = 40;
+
+function typeWriterm() {
+  if (m < txtm.length) {
+    document.getElementById("demom").innerHTML += txtm.charAt(m);
+    m++;
+    setTimeout(typeWriterm, speedm);
+  }
+}
+</script>
+<br><br> <br><br><br> 
+<hr>
+<a href="#other"><em>Skip to last</em></a>
+
+<div class="objects">
+		<p id='all'>
+		Just read through:<br><br>
+		ASTEROID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;- They are small rocky bodies mainly made of materials left over from the formation of the inner solar system.<br>
+		METEOROIDS &nbsp;  - When one asteroid smashes into another,small pieces break off and are called meteoroids.<br>
+		METEORS   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - When a meteoroid comes close enough to Earth and enters Earth’s atmosphere, it vaporizes and turns into a meteor: a streak of light in the sky.Also called "Shooting stars"<br>
+		METEORITES &nbsp;&nbsp;  - Sometimes meteoroids don’t vaporize completely in the atmosphere.They survive their trip through Earth’s atmosphere and land on the Earth’s surface. When they land on Earth, they are called meteorites.<br>
+		COMETS &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     - Comets orbit the Sun, like asteroids. But comets are made of ice and dust—not rock.<br></p>
+
+	<img src="https://thumbs.imagekind.com/674397_650/Mt-Rainier--Comet-Hyakutake--Paradise-_art.jpg?v=1512520081" width="650" height="550" style="float:right"/><br><br><br><br>
+    <p id="comet"><em><strong>COMET RECIPE:</strong></em><br>Ingredients&nbsp; :frozen water,supercold methane, ammonia,carbon dioxide ices.<br>
+	Toppings   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     :rock, dust and other metallic bits of solar system debris.<br>
+    Steps    &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    :Mix it all.Sprinkle some toppings<br></p><br><br><br><br><br><br><br><br>
+	<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F04%2F10%2Fperseid-meteor-shower-big-bend-national-park-DARKSKY0420.jpg" width="650" height="550" style="float:right"/><br>
+	<p id="meteor"><em><strong>HOW TO WATCH A METEOR SHOWER?</strong></em><br> A number of meteors are observed to radiate, or originate, from one point in the night sky called Radiant.I'm that bewitching beauty you can't get enough of! For starters, make sure that you are in a place that does not have too many lights. A typically dark place should work the best, and you must lie down and look up at the night sky.</p><br><br><br><br><br><br><br><br><br>
+    <img src="https://media1.s-nbcnews.com/i/newscms/2017_31/2091096/170801-alien-extraterrestrial-mn-1210_8154e1bb6593a2e8338b4c858287ee0e.jpg" width="650" height="550" style="float:right">
+	<p id="et">Uhm hmm...Can you hear me? This is a vast univerese with countless possibilities dude! Assume I exist. You are livin in a small galaxy where life can afford to exist only in the third planet from Sun aka Earth.We may either be so far or next to you(invisible),we may either be weak or unexpectedly mighty, we may look either handsome/pretty or like the dork you potray us to be, we may have superpowers or no powers.See, I can be anything.Unexpected incidents are more thriller..Well,the only thing i gotta tell is Expect us anytime!
+		"When nothing is sure, everything is possible"-
+	</p>
+</div>
+<hr>
+	<img src="https://i.pinimg.com/originals/91/9a/c3/919ac30002e753944a20d26724c51e6d.jpg" class="bax"/><br>
+	<button onclick="typeWritern()">Click me</button>
+	<h2 id="demon"></h2>
+	<script>
+var n = 0;
+var txtn = "We are now at the last stop!";
+var speedn = 40;
+
+function typeWritern() {
+  if (n < txtn.length) {
+    document.getElementById("demon").innerHTML += txtn.charAt(n);
+    n++;
+    setTimeout(typeWritern, speedn);
+  }
+}
+</script>
+<br><br> <br><br><br> 
+<hr>
+
+
+
+<div id="other">
+	<!--<p id="galaxy">A galaxy is a massive, gravitationally bound system that consists of stars, stellar objects (such as brown dwarfs and neutron stars), nebulae, an interstellar medium of gas and dust, black holes, and an unknown component of dark matter.Astronomers sort galaxies into three main types by their shapes.I, Milky way is one among the galaxy classified under Spiral galaxy. </p>
+	<p id="sg">Spiral galaxies are the most common type in the universe.Spirals are large rotating disks of stars and nebulae, surrounded by a shell of dark matter. The central bright region at the core of a galaxy is called the “galactic bulge”.Eg:Milky way,Andromeda</p>
+	<p id="eg">Elliptical galaxies are roughly egg-shaped (ellipsoidal or ovoid) found largely in galaxy clusters and smaller compact groups.Eg:Messier87</p>
+	<p id="ig">Irregular galaxies are as their name suggests: irregular in shape.Eg:Magellanic clouds</p>
+	<p>A little more for ya</p>
+		<img src="https://www.popastro.com/main_spa1/wp-content/uploads/2018/05/Junesky.jpg" id="imge">
+	<p >A constellation is a group of stars that appears to form a pattern or picture like Orion the Great Hunter, Leo the Lion, or Taurus the Bull. Constellations are easily recognizable patterns that help people orient themselves using the night sky. There are 88 “official” constellations.</p>
+	<p >I'm a cloud of gas and dust in interstellar space.Every nebula contains hydrogen and helium, plus a mixture of other gases.No I'm not this.<img src="navengers.jpg">I'm this<img src="neb.jpg">Every nebula contains hydrogen and helium, plus a mixture of other gases.</p>-->
+	<h1 class="glowe">BLACK HOLE</h1><img src="https://dq0hsqwjhea1.cloudfront.net/bh_illo_480px.jpg" width="900" height="500" class="bh">
+	<p class="bhp" >&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A space story without black hole is incomplete.Black holes are one of the strangest things in the universe.We are collections of mass – with gravity so strong that nothing can escape, not even light.The massive gravitational influence of a black hole distorts space and time in the near neighbourhood. The closer you get to a black hole, the slower time runs. Material that gets too close to a black hole gets sucked in and can never escape.Propose all possible theories but I'm a mess too hard to figure out with those cute little brains.</p>
+
+</div>
+<hr>
+	<img src="https://i.pinimg.com/originals/91/9a/c3/919ac30002e753944a20d26724c51e6d.jpg" class="bax"/><br>
+	<button onclick="typeWriterl()">Click me</button>
+	<h2 id="demol"></h2>
+	<script>
+var l = 0;
+var txtl= "You are an amazing person.It's hard to part away from you.Tik tik...Time to take off to your planet.I'll tell you more on your next visit! BYE HUMAN!!";
+var speedl = 40;
+
+function typeWriterl() {
+  if (l < txtl.length) {
+    document.getElementById("demol").innerHTML += txtl.charAt(l);
+    l++;
+    setTimeout(typeWriterl, speedl);
+  }
+}
+</script>
+<br><br> <br><br><br> 
+<hr>
+<div id="end">
+<p id="but"><button class="bbutton" >Back to Earth</button></p></div>
+</div>
+</body>
